@@ -9,13 +9,12 @@
 
 header {
   position: absolute;
-  top: -63px;
+  top: 0;
   left: 0;
   width: 100%;
   padding: 20px 100px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 header .logo {
@@ -37,17 +36,23 @@ header ul li {
 }
 
 header ul li a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-weight: 800;
   margin-left: 40px;
   text-decoration: none;
+  position: relative;
+  top: 4px;
 }
 
-  img{
-    height: 200px;
-  }
+
+.sk8 {
+  position: relative;
+  height: 380px;
+  left: -169px;
+  bottom: 159px;
+}
 
 .endereco{height: 50px;}
 

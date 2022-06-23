@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #323232;
+    border: none;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    position: relative;
+    max-width: 80px;
+    left: -20px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    top: -20px;
+}
+
+header ul li {
+    padding-top: 35px;
+    list-style: none;
+}
+
+header ul li a {
+    font-size: 18px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+img {
+    position: relative;
+    height: 380px;
+    left: -169px;
+    bottom: 159px;
+}
+
+input, label{
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus{
+    outline: none;
+}
+
+a {
+    color: #0bddca;
+}
+
+body {
+    padding-top: 15vh;
+    background: linear-gradient(133deg, #a7a4a4, black);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+
+
+.logo{
+    height: 50px;
+    width: auto;
+}
+
+
+#main-container{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#main-container h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half-box{
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing{
+    margin-right: 2.5%;
+}
+
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input:focus{
+    border-color: #000000;
+
+}
+
+input[type="submit"]{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#agreement{
+    margin-right: 5px;
+}
+
+#agreement, #agreement-label{
+    display: inline-block;
+    width: auto;
+}
+
+.error-validation{
+    color: #ff1A1A;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template{
+    display: none;
+}
