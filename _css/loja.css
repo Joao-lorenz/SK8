@@ -161,3 +161,7 @@ main>header {
     position: relative;
     top: -14px;
 }
+
+section.produto {
+    border: 5px #474747
+}
